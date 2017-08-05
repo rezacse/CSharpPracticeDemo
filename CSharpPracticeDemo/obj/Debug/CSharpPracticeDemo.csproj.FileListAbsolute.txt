@@ -1,0 +1,6 @@
+D:\DevResources\_github\CSharpPracticeDemo\CSharpPracticeDemo\bin\Debug\CSharpPracticeDemo.exe.config
+D:\DevResources\_github\CSharpPracticeDemo\CSharpPracticeDemo\bin\Debug\CSharpPracticeDemo.exe
+D:\DevResources\_github\CSharpPracticeDemo\CSharpPracticeDemo\bin\Debug\CSharpPracticeDemo.pdb
+D:\DevResources\_github\CSharpPracticeDemo\CSharpPracticeDemo\obj\Debug\CSharpPracticeDemo.csprojResolveAssemblyReference.cache
+D:\DevResources\_github\CSharpPracticeDemo\CSharpPracticeDemo\obj\Debug\CSharpPracticeDemo.exe
+D:\DevResources\_github\CSharpPracticeDemo\CSharpPracticeDemo\obj\Debug\CSharpPracticeDemo.pdb
