@@ -63,9 +63,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ExplicitInterface.cs" />
+    <Compile Include="Interfaces\ICustomer1.cs" />
+    <Compile Include="Interfaces\ICustomer2.cs" />
+    <Compile Include="Models\AbstactClass.cs" />
     <Compile Include="Models\ArgumentPassing.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\FullTimeEmployee.cs" />
+    <Compile Include="Models\MultipleInheritance.cs" />
     <Compile Include="Models\PartTimeEmployee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

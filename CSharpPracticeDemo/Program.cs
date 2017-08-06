@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using CSharpPracticeDemo.Interfaces;
 using CSharpPracticeDemo.Models;
 
 namespace CSharpPracticeDemo
@@ -41,18 +42,48 @@ namespace CSharpPracticeDemo
 
             #region polymorphism
 
-            var employees = new Employee[3];
-            employees[0] = new Employee();
-            employees[1] = new PartTimeEmployee();
-            employees[2] = new FullTimeEmployee();
+            //var employees = new Employee[3];
+            //employees[0] = new Employee();
+            //employees[1] = new PartTimeEmployee();
+            //employees[2] = new FullTimeEmployee();
 
-            foreach (var employee in employees)
-            {
-                employee.PrintEmail();
-            }
-                               
+            //foreach (var employee in employees)
+            //{
+            //    employee.PrintEmail();
+            //}
+
             #endregion
 
+            #region inteface
+
+            //ICustomer1 cust1 = new Customer();
+            //cust1.PrintEmployee1();
+
+            #endregion
+
+            #region explicitInterface
+
+            //var ei = new ExplicitInterface();
+            //ei.A();      // call default one
+
+            //((IB)ei).A(); 
+
+            #endregion
+
+            #region abstractClass
+
+            //AbstactBaseClass abc = new DrivedClassFromAbstract();
+            //abc.PrintBaseAbstact();
+
+            #endregion
+
+            #region multipleInheritance
+
+            AB ab = new AB();
+            ab.PrintIA();
+            ab.PrintIB();
+
+            #endregion
 
             Console.ReadLine();
         }
